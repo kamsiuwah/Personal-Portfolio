@@ -1,6 +1,7 @@
 {
   "name": "developerfolio",
   "version": "0.1.0",
+  "homepage": "https://kamsiuwah.github.io/Personal-Portfolio",
   "private": true,
   "scripts": {
     "start": "node fetch.js && react-scripts start",
