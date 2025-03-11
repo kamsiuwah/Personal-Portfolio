@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "./containers/greeting/resume", // Set to empty to hide the button
+  resumeLink: "./containers/greeting/resume", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,7 +53,9 @@ const skillsSection = {
     emoji(
       "⚡ Build and optimize serverless architectures on AWS (Lambda, DynamoDB, SES), automating large-scale data processing and onboarding workflows"
     ),
-    emoji("⚡ Develop data-centric solutions using Python, SQL, and Java for analytics, real-time monitoring, and custom dashboards"),
+    emoji(
+      "⚡ Develop data-centric solutions using Python, SQL, and Java for analytics, real-time monitoring, and custom dashboards"
+    ),
     emoji(
       "⚡ Create engaging user interfaces and robust backend APIs with frameworks like React, Node.js, and Flask for end-to-end solutions"
     )
@@ -138,10 +139,13 @@ const educationInfo = {
     {
       schoolName: "McNeese State University",
       logo: require("./assets/images/MsuLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science, Minor in Mathematics",
+      subHeader:
+        "Bachelor of Science in Computer Science, Minor in Mathematics",
       duration: "August 2021 - May 2023",
       desc: "GPA: 3.64",
-      descBullets: ["Relevant Coursework: OOP, Discrete Math, Data Structures, etc."]
+      descBullets: [
+        "Relevant Coursework: OOP, Discrete Math, Data Structures, etc."
+      ]
     }
   ]
 };
@@ -175,7 +179,6 @@ const techStack = {
   displayCodersrank: false // Set true to display CodersRank badges (update username in skillProgress.js)
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -196,7 +199,7 @@ const workExperiences = {
     {
       role: "Consulting Extern",
       company: "PwC",
-      companylogo: require("./assets/images/pwcLogo.png"), 
+      companylogo: require("./assets/images/pwcLogo.png"),
       date: "August 2023 – September 2023",
       desc: "",
       descBullets: [
@@ -207,7 +210,7 @@ const workExperiences = {
     {
       role: "Logistics Operations Intern",
       company: "Angelic Solution Spot Inc",
-      companylogo: require("./assets/images/AngelicLogo.jpg"), 
+      companylogo: require("./assets/images/AngelicLogo.jpg"),
       date: "June 2023 – August 2023",
       desc: "",
       descBullets: [
@@ -236,13 +239,13 @@ const bigProjects = {
     {
       // 1st project
       image: require("./assets/images/project1.png"), // Update with your own image file
-      projectName: "Smart City Monitoring System",    // Change to your project name
+      projectName: "Smart City Monitoring System", // Change to your project name
       projectDesc:
         "Developed a Flask backend, real-time React.js UI, and a VAR model to predict environmental trends using historical data.",
       footerLink: [
         {
           name: "View Live",
-          url: "https://smartcityenvironmentalsystem-frontend.onrender.com"  // For example
+          url: "https://smartcityenvironmentalsystem-frontend.onrender.com" // For example
         }
         // You can add more links for source code, documentation, etc.
         // e.g. { name: "GitHub", url: "https://github.com/..." }
@@ -257,14 +260,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Live",
-          url: "https://fitness-coach-website.onrender.com"  
+          url: "https://fitness-coach-website.onrender.com"
         }
       ]
     }
   ],
   display: true // set to false if you want to hide this section
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -288,7 +290,6 @@ const achievementSection = {
   ],
   display: true
 };
-
 
 // Blogs Section
 
